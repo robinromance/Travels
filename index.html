@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Travel Partner Kerala Tours - Taxi service, beach tours, backwaters and custom travel packages in Kerala.">
+<title>Travel Partner | Kerala Tours</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+html{
+    scroll-behavior:smooth;
+}
+</style>
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav>
+    <h2>Travel Partner</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#location">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <video autoplay muted loop playsinline preload="auto">
+        <source src="hero.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+        <h1>Discover Kerala With Us</h1>
+        <p>Beach • Backwaters • Hills • Culture</p>
+        <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+            Plan Your Trip
+        </button>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+    <h2>About Travel Partner</h2>
+    <p>Based in Adimalathura, we provide premium Kerala tour packages, taxi services and custom travel experiences with local expertise.</p>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>🚗 Taxi Service</h3>
+            <p>Airport pickup & drop anywhere in Kerala.</p>
+        </div>
+        <div class="card">
+            <h3>🏖 Beach Tours</h3>
+            <p>Kovalam, Varkala & coastal packages.</p>
+        </div>
+        <div class="card">
+            <h3>🛶 Backwater Trips</h3>
+            <p>Alleppey & Kumarakom houseboats.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= PACKAGES ================= -->
+<section class="section" id="packages">
+    <h2>Popular Kerala Packages</h2>
+    <div class="packages">
+        <div class="package">
+            <img src="https://images.unsplash.com/photo-1593693397690-362cb9666fc2" alt="Munnar Hills Kerala">
+            <h3>Munnar 2 Days</h3>
+            <p>Starting ₹4,999</p>
+        </div>
+
+        <div class="package">
+            <img src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944" alt="Alleppey Houseboat Kerala">
+            <h3>Alleppey Houseboat</h3>
+            <p>Starting ₹6,999</p>
+        </div>
+
+        <div class="package">
+            <img src="https://images.unsplash.com/photo-1586790170083-2f9ceadc732d" alt="Kovalam Beach Kerala">
+            <h3>Kovalam Beach</h3>
+            <p>Starting ₹3,999</p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= LOCATION ================= -->
+<section class="location-section" id="location">
+    <h2>📍 Visit Our Office</h2>
+
+    <div class="location-container">
+
+        <div class="location-info">
+            <h3>Travel Partner</h3>
+            <p>
+                Adimalathura, Chowara P.O <br>
+                695501, Thiruvananthapuram <br>
+                Kerala, India
+            </p>
+
+            <p><strong>📞 Call / WhatsApp:</strong> +91 8078210471</p>
+
+            <a href="https://www.google.com/maps?q=Adimalathura,Chowara,Kerala"
+               target="_blank"
+               rel="noopener"
+               class="direction-btn">
+               🗺️ Get Directions
+            </a>
+        </div>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps?q=Adimalathura,Chowara,Kerala&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= REVIEWS ================= -->
+<section class="reviews-section">
+    <h2>What Our Clients Say</h2>
+
+    <div class="review-slider">
+        <div class="review active">
+            <p>"Amazing service! Very professional and friendly team."</p>
+            <h4>★★★★★</h4>
+        </div>
+
+        <div class="review">
+            <p>"Best Kerala tour experience. Everything perfectly arranged!"</p>
+            <h4>★★★★★</h4>
+        </div>
+
+        <div class="review">
+            <p>"Highly recommend Travel Partner for beach and houseboat trips."</p>
+            <h4>★★★★★</h4>
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact">
+    <h2>Plan Your Trip</h2>
+
+    <div class="form-container">
+        <form id="travelForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <input type="text" id="destination" placeholder="Destination" required>
+            <input type="date" id="date" required>
+            <input type="number" id="people" placeholder="Number of People" required>
+            <button type="submit" class="submit-btn">Send WhatsApp Enquiry</button>
+        </form>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>📞 +91 8078210471</p>
+    <p>📍 Adimalathura, Chowara P O, 695501, TVM, Kerala</p>
+    <p>© 2026 Travel Partner. All Rights Reserved.</p>
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/918078210471" target="_blank" rel="noopener">💬</a>
+
+<!-- ================= SCRIPT ================= -->
+<script>
+document.getElementById("travelForm").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    let name=document.getElementById("name").value;
+    let phone=document.getElementById("phone").value;
+    let destination=document.getElementById("destination").value;
+    let date=document.getElementById("date").value;
+    let people=document.getElementById("people").value;
+
+    let message = 
+`Hello Travel Partner,
+
+I would like to plan a trip.
+
+Name: ${name}
+Phone: ${phone}
+Destination: ${destination}
+Travel Date: ${date}
+Number of People: ${people}
+
+Please share the details. Thank you!`;
+
+    let url="https://wa.me/918078210471?text="+encodeURIComponent(message);
+    window.open(url,"_blank");
+});
+
+let reviews=document.querySelectorAll(".review");
+let index=0;
+
+setInterval(()=>{
+    reviews[index].classList.remove("active");
+    index=(index+1)%reviews.length;
+    reviews[index].classList.add("active");
+},4000);
+</script>
+
+</body>
+</html>
